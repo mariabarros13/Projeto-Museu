@@ -1,0 +1,25 @@
+// consulta para atribuir o valor estimado em classes, isso pode ser útil para análisar quais são as obras de maior valor de uma forma mais fácil e assim tomar precauções extras durante a expocição delas
+// itens cumpridos: PROJECT | COUND | sort | aggregate
+
+db.obras.aggregate([
+{
+    $project:{
+        titulo:1,
+        valorEstimado:1,
+        classificacao:{
+            $cond:{
+                if:{
+                    $gte:["$valorEstimado",5000000]
+                },
+                then:"Alto Valor",
+                else:"Valor Comum"
+            }
+        }
+    }
+},
+{
+    $sort:{
+        valorEstimado:-1
+    }
+}
+])

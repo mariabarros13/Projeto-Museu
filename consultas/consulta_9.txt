@@ -1,0 +1,13 @@
+// consulta para mostrar qual a obra mais valioza
+// itens cumpridos: aggregate | max | group
+
+db.obras.aggregate([
+{
+    $group:{
+        _id:null,
+        maiorValor:{
+            $max:"$valorEstimado"
+        }
+    }
+}
+])

@@ -1,0 +1,14 @@
+// verificando qual foi a receita de cada uma das exposições, isso vai gerar uma nova coleção que contem qual foi a receita de cada uma delas
+// itens cumpridos: mapReduce | function | pretty | find
+
+db.ingressos.mapReduce(
+function() {
+    emit(this.exposicaoId, this.preco);
+},
+function(key, values) {
+    return Array.sum(values);
+},
+{ out: "receitaPorExposicao" }
+)
+
+db.receitaPorExposicao.find().pretty()

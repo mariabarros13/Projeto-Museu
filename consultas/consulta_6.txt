@@ -1,0 +1,5 @@
+// consulta para verificar quais as obras que tem mais de 100 anos, isso pode ser útil para verificar quais delas podem precisar de uma restauração
+// itens cumpridos: FIND | WHERE
+db.obras.find({
+  $where: "2026 - this.anoCriacao > 100"
+})
