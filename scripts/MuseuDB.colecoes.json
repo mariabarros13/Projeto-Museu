@@ -1,0 +1,25 @@
+[{
+  "_id": 1,
+  "nome": "Arte Moderna",
+  "descricao": "Obras produzidas durante o movimento modernista."
+},
+{
+  "_id": 2,
+  "nome": "Arte Renascentista",
+  "descricao": "Obras produzidas durante o Renascimento europeu."
+},
+{
+  "_id": 3,
+  "nome": "Impressionismo",
+  "descricao": "Obras do movimento impressionista."
+},
+{
+  "_id": 4,
+  "nome": "Surrealismo",
+  "descricao": "Obras com características surrealistas."
+},
+{
+  "_id": 5,
+  "nome": "Expressionismo",
+  "descricao": "Obras ligadas ao movimento expressionista."
+}]

@@ -1,0 +1,80 @@
+[{
+  "_id": 1,
+  "nome": "Tarsila do Amaral",
+  "dataNascimento": "1886-09-01",
+  "dataFalecimento": "1973-01-17",
+  "nacionalidade": "Brasileira",
+  "biografia": "Importante artista do modernismo brasileiro."
+},
+{
+  "_id": 2,
+  "nome": "Candido Portinari",
+  "dataNascimento": "1903-12-30",
+  "dataFalecimento": "1962-02-06",
+  "nacionalidade": "Brasileira",
+  "biografia": "Um dos mais importantes pintores brasileiros."
+},
+{
+  "_id": 3,
+  "nome": "Anita Malfatti",
+  "dataNascimento": "1889-12-02",
+  "dataFalecimento": "1964-11-06",
+  "nacionalidade": "Brasileira",
+  "biografia": "Pioneira do modernismo no Brasil."
+},
+{
+  "_id": 4,
+  "nome": "Pablo Picasso",
+  "dataNascimento": "1881-10-25",
+  "dataFalecimento": "1973-04-08",
+  "nacionalidade": "Espanhola",
+  "biografia": "Pintor e escultor espanhol, um dos criadores do cubismo."
+},
+{
+  "_id": 5,
+  "nome": "Vincent van Gogh",
+  "dataNascimento": "1853-03-30",
+  "dataFalecimento": "1890-07-29",
+  "nacionalidade": "Holandesa",
+  "biografia": "Pintor pós-impressionista considerado um dos maiores artistas da história."
+},
+{
+  "_id": 6,
+  "nome": "Claude Monet",
+  "dataNascimento": "1840-11-14",
+  "dataFalecimento": "1926-12-05",
+  "nacionalidade": "Francesa",
+  "biografia": "Fundador do movimento impressionista francês."
+},
+{
+  "_id": 7,
+  "nome": "Leonardo da Vinci",
+  "dataNascimento": "1452-04-15",
+  "dataFalecimento": "1519-05-02",
+  "nacionalidade": "Italiana",
+  "biografia": "Polímata renascentista, autor da Mona Lisa."
+},
+{
+  "_id": 8,
+  "nome": "Salvador Dali",
+  "dataNascimento": "1904-05-11",
+  "dataFalecimento": "1989-01-23",
+  "nacionalidade": "Espanhola",
+  "biografia": "Principal representante do surrealismo."
+},
+{
+  "_id": 9,
+  "nome": "Frida Kahlo",
+  "dataNascimento": "1907-07-06",
+  "dataFalecimento": "1954-07-13",
+  "nacionalidade": "Mexicana",
+  "biografia": "Uma das artistas latino-americanas mais influentes do século XX."
+},
+{
+  "_id": 10,
+  "nome": "Edvard Munch",
+  "dataNascimento": "1863-12-12",
+  "dataFalecimento": "1944-01-23",
+  "nacionalidade": "Norueguesa",
+  "biografia": "Artista expressionista conhecido pela obra O Grito."
+}]

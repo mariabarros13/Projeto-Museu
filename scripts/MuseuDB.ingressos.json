@@ -1,0 +1,135 @@
+[{
+  "_id": 301,
+  "dataVisita": "2026-04-10T14:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 201,
+  "visitanteNome": "Ana Silva",
+  "cidadeOrigem": "Recife"
+},
+{
+  "_id": 302,
+  "dataVisita": "2026-04-11T15:00:00",
+  "tipoIngresso": "Meia",
+  "preco": 15,
+  "exposicaoId": 201,
+  "visitanteNome": "Bruno Costa",
+  "cidadeOrigem": "Olinda"
+},
+{
+  "_id": 303,
+  "dataVisita": "2026-04-12T16:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 202,
+  "visitanteNome": "Carlos Lima",
+  "cidadeOrigem": "Recife"
+},
+{
+  "_id": 304,
+  "dataVisita": "2026-04-13T10:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 203,
+  "visitanteNome": "Daniela Souza",
+  "cidadeOrigem": "Jaboatao"
+},
+{
+  "_id": 305,
+  "dataVisita": "2026-04-14T11:00:00",
+  "tipoIngresso": "Meia",
+  "preco": 15,
+  "exposicaoId": 204,
+  "visitanteNome": "Eduardo Alves",
+  "cidadeOrigem": "Paulista"
+},
+{
+  "_id": 306,
+  "dataVisita": "2026-04-15T12:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 205,
+  "visitanteNome": "Fernanda Rocha",
+  "cidadeOrigem": "Recife"
+},
+{
+  "_id": 307,
+  "dataVisita": "2026-04-16T13:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 201,
+  "visitanteNome": "Gabriel Melo",
+  "cidadeOrigem": "Olinda"
+},
+{
+  "_id": 308,
+  "dataVisita": "2026-04-17T14:00:00",
+  "tipoIngresso": "Meia",
+  "preco": 15,
+  "exposicaoId": 202,
+  "visitanteNome": "Helena Castro",
+  "cidadeOrigem": "Recife"
+},
+{
+  "_id": 309,
+  "dataVisita": "2026-04-18T15:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 203,
+  "visitanteNome": "Igor Santos",
+  "cidadeOrigem": "Olinda"
+},
+{
+  "_id": 310,
+  "dataVisita": "2026-04-19T16:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 204,
+  "visitanteNome": "Julia Ferreira",
+  "cidadeOrigem": "Recife"
+},
+{
+  "_id": 311,
+  "dataVisita": "2026-04-20T14:00:00",
+  "tipoIngresso": "Meia",
+  "preco": 15,
+  "exposicaoId": 205,
+  "visitanteNome": "Lucas Gomes",
+  "cidadeOrigem": "Olinda"
+},
+{
+  "_id": 312,
+  "dataVisita": "2026-04-21T14:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 202,
+  "visitanteNome": "Marina Lima",
+  "cidadeOrigem": "Recife"
+},
+{
+  "_id": 313,
+  "dataVisita": "2026-04-22T14:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 203,
+  "visitanteNome": "Nicolas Souza",
+  "cidadeOrigem": "Caruaru"
+},
+{
+  "_id": 314,
+  "dataVisita": "2026-04-23T14:00:00",
+  "tipoIngresso": "Meia",
+  "preco": 15,
+  "exposicaoId": 204,
+  "visitanteNome": "Olivia Martins",
+  "cidadeOrigem": "Recife"
+},
+{
+  "_id": 315,
+  "dataVisita": "2026-04-24T14:00:00",
+  "tipoIngresso": "Inteira",
+  "preco": 30,
+  "exposicaoId": 205,
+  "visitanteNome": "Pedro Henrique",
+  "cidadeOrigem": "Olinda"
+}]

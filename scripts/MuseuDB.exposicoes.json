@@ -1,0 +1,59 @@
+[{
+  "_id": 201,
+  "nome": "Modernismo Brasileiro",
+  "dataInicio": "2026-01-10",
+  "dataFim": "2026-06-30",
+  "localizacaoSala": "Ala Norte - Sala 1",
+  "obras": [
+    101,
+    102,
+    103
+  ]
+},
+{
+  "_id": 202,
+  "nome": "Mestres Europeus",
+  "dataInicio": "2026-02-01",
+  "dataFim": "2026-07-31",
+  "localizacaoSala": "Ala Central - Sala 2",
+  "obras": [
+    104,
+    105,
+    106,
+    107
+  ]
+},
+{
+  "_id": 203,
+  "nome": "Arte Surrealista",
+  "dataInicio": "2026-03-01",
+  "dataFim": "2026-08-30",
+  "localizacaoSala": "Ala Sul - Sala 3",
+  "obras": [
+    108,
+    109
+  ]
+},
+{
+  "_id": 204,
+  "nome": "Expressionismo Europeu",
+  "dataInicio": "2026-04-01",
+  "dataFim": "2026-09-01",
+  "localizacaoSala": "Ala Leste - Sala 4",
+  "obras": [
+    110
+  ]
+},
+{
+  "_id": 205,
+  "nome": "Grandes Obras da Historia",
+  "dataInicio": "2026-05-01",
+  "dataFim": "2026-10-01",
+  "localizacaoSala": "Ala Principal",
+  "obras": [
+    101,
+    104,
+    107,
+    110
+  ]
+}]
