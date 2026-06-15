@@ -1,0 +1,8 @@
+// Descrição: Busca de Exposições de Grande Porte. Procura por exposições que já têm sala física designada e contam com exatamente 4 obras no acervo.
+// Itens cumpridos: 2. FIND | 13. EXISTS | 3. SIZE
+db.exposicoes.find(
+  {
+    localizacaoSala: { $exists: true },
+    obras: { $size: 4 }
+  }
+)

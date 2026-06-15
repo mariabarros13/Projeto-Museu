@@ -1,0 +1,25 @@
+// Descrição: Detalhamento de Obras de Alto Valor. Busca obras estimadas em 5 milhões ou mais e faz um "join" (lookup) com a coleção de artistas para trazer o nome do autor (n), título (t) e valor (v).
+// Itens cumpridos: 5. MATCH | 7. GTE | 29. LOOKUP | 6. PROJECT
+db.obras.aggregate([
+  {
+    $match: { 
+      valorEstimado: { $gte: 5000000 }
+    }
+  },
+  {
+    $lookup: {
+      from: "artistas",
+      localField: "artistaId",
+      foreignField: "_id",
+      as: "a"
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      t: "$titulo",
+      v: "$valorEstimado",
+      n: { $arrayElemAt: ["$a.nome", 0] } 
+    }
+  }
+])
