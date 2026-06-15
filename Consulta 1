@@ -1,0 +1,14 @@
+// Descrição: Relatório Financeiro das Exposições. Analisa a coleção de ingressos, agrupa por exposição e calcula a receita total (r) e a média de preço paga por ingresso (m).
+// Itens cumpridos: 4. AGGREGATE | 8. GROUP | 9. SUM | 12. AVG | 14. SORT
+db.ingressos.aggregate([
+  {
+    $group: {
+      _id: "$exposicaoId",
+      r: { $sum: "$preco" },
+      m: { $avg: "$preco" }
+    }
+  },
+  {
+    $sort: { r: -1 }
+  }
+])
