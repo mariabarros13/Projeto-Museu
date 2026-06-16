@@ -1,0 +1,12 @@
+// consulta que permite procurar por termos em específico na biografia dos artistas, nesse caso está sendo procurado todos que contem a palavra "modernismo" nela
+// itens cumpridos: TEXT | search
+
+db.artistas.createIndex({
+    biografia:"text"
+})
+biografia_text
+db.artistas.find({
+    $text:{
+        $search:"modernismo"
+    }
+})

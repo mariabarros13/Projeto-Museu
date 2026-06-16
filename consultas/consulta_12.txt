@@ -1,0 +1,8 @@
+// procura por todas as exposições que contem simultaneamente o conjunto de obras listado
+// itens cumpridos: all | find
+
+db.exposicoes.find({
+    obras:{
+        $all:[101,102]
+    }
+})

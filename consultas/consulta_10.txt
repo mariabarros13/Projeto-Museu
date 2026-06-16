@@ -1,0 +1,15 @@
+// consulta para mostrar qual a quantidade de visitantes de determinada exposição
+// itens cumpridos: findOne | countDocuments
+
+// executar primeiro, assim vai ser possível pegar o ID de uma exposição
+db.exposicoes.findOne()
+
+// mostrar a quantidade de visitantes da exposição de ID encontrado
+db.ingressos.countDocuments({
+    exposicaoId:201
+})
+
+// caso queira mudar o nome da coleção que armazena a quantidade de visitantes de cada uma das exposições
+db.receitaPorExposicao.renameCollection(
+    "relatorioReceitaExposicao"
+)

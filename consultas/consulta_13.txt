@@ -1,0 +1,30 @@
+// consulta para procurar as obras consideradas valiosas em cada uma das exposições
+// itens cumpridos: aggregate | lookup | project | filter
+
+db.exposicoes.aggregate([
+{
+    $lookup:{
+        from:"obras",
+        localField:"obras",
+        foreignField:"_id",
+        as:"detalhesObras"
+    }
+},
+{
+    $project:{
+        nome:1,
+        obrasValiosas:{
+            $filter:{
+                input:"$detalhesObras",
+                as:"obra",
+                cond:{
+                    $gte:[
+                        "$$obra.valorEstimado",
+                        3000000
+                    ]
+                }
+            }
+        }
+    }
+}
+])

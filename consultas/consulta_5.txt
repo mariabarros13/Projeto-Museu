@@ -1,12 +1,13 @@
-// atualização do valor de um campo em um item em específico
-// adicionando um novo ingresso
-// itens cumpridos: SET | UPDATE | SAVE
+// código para adicionar e atualizar informações
+// itens cumpridos: SET | UPDATE | SAVE | addToSet |
 
+// altera o valor da obra de título "Operarios"
 db.obras.updateOne(
   {titulo:"Operarios"},
   {$set: {valorEstimado:5000000}}
 )
 
+// adicionando um novo ingresso
 db.ingressos.insertOne({
   _id: 316,
   dataVisita: "2026-04-20T14:00:00",
@@ -16,3 +17,15 @@ db.ingressos.insertOne({
   visitanteNome: "Felipe Souza",
   cidadeOrigem: "Recife"
 })
+
+// adiciona uma nova obra a exposição se ela já não estiver nela
+db.exposicoes.updateOne(
+{
+    _id:201
+},
+{
+    $addToSet:{
+        obras:110
+    }
+}
+)
